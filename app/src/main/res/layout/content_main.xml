@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="70dp"
+        android:textAlignment="center"
+        android:text="
+Salish Keyboard by dofdev + Sulustu\n
+\n
+\n
+Installation:\n
+These are the general steps, as devices differ in how they manage keyboards\n
+(search for a guide to your specific device)\n
+\n
+\n
+Step 1:\n
+Navigate to 'Languages and Input' in your device's settings menu\n
+\n
+Step 2:\n
+Enable 'Salish Keyboard' as an input method\n
+\n
+Step 3:\n
+Set it as your active keyboard\n
+\n
+\n
+\n
+Open Source:\n
+dofdev.org/salishkeyboard
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
